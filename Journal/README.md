@@ -36,3 +36,10 @@ Today I decided to solve wiring, I need to have servo wires run from the fingers
 ![Screenshot 2026-03-23 102500](https://github.com/user-attachments/assets/2f55cd79-70e8-4e42-a585-f22d413a431a)
 <img width="853" height="921" alt="Screenshot 2026-03-23 102604" src="https://github.com/user-attachments/assets/84de4bfe-ab45-4ed0-9cce-65df3103c301" />
 Time Spent: 3 Hours
+
+3/23/2026 5 PM - I designed the arm top to connect the fingers
+
+Now I am starting the top portion that connects the fingers to the rest of the design, the 'arm top'. I started off with the previous arm piece, and cut it in half to use just the bottom portion. Initially my plan was to have each finger with it's own servo, but immediately when I started designing, I realized that was highly inefficient and resorted to a gear system to control all the fingers simultaneously with one servo. I needed a place to align all these gears, so I put a 5 inch circle on top if the half-arm piece I made earlier, and extruded it to 0.4 inches thick. I needed a I put three small rods in a triangle shape, to later align the gears correctly around the servo gear, and messed with the diameter for a bit to make them small enough to fit on the inside of the gears. After this I decided to make some support columns for the vertical gears, so they could freely rotate but be secured to the hand as a whole. Initially I just made them as vertical rectangular beams, then I added simple slots in the sides, so the rod to hold the fingers would be secure.
+![Screenshot 2026-03-23 170800](https://github.com/user-attachments/assets/4224722d-8882-4064-90b8-abab7aa046ac)
+![Screenshot 2026-03-23 170828](https://github.com/user-attachments/assets/4a328e0c-0ec4-424f-86d6-667fd8706d7f)
+Time Spent: 5 Hours
