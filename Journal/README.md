@@ -60,3 +60,10 @@ Today I started working on the fingers themselves, I started off with a slanted 
 ![Screenshot 2026-03-24 175037](https://github.com/user-attachments/assets/8bfaffa0-49e0-4057-9cf4-37ca60b9a793)
 ![Screenshot 2026-03-24 175050](https://github.com/user-attachments/assets/3d57e088-6760-4fe7-8183-0fe56f1d8f71)
 Time Spent: 3.5 Hours
+
+3/25/2026 - I designed the base bottom with an interchangeable system.
+
+Lastly for the modeling, I needed to get the base system set up, the 'base bottom'. I want the base to be able to be interchangeable, so I can have multiple of them, and easily move the arm around without unscrewing the whole base. To start I wanted to use an interlocking pin system, so I could slid it on and rotate it into place, so I started designing it. And very quickly I realized that this would be highly inefficient, as each pin would have limited size, and it could easily slide out. So I scrapped all that, and decided to start fresh. This time I decided to use a dovetail design, as it is super easy to both design, and to use in general. So I made a basic trapezoid on the top of my first baseplate, and created a matching sized cutout on the base of the arm (with tolerance). For the actual base plate I just made a simple square, with a slightly bigger length than the base body, and a hole in each of the corners for screws. This will allow my to create at least two, one for my desk and one for the wall, that I can bolt on and leave there and just remove the arm.
+![Screenshot 2026-03-25 110911](https://github.com/user-attachments/assets/6c95cc74-eacf-42fe-8519-7f7dd7be005f)
+![Screenshot 2026-03-25 110924](https://github.com/user-attachments/assets/cc725eb0-795c-4c5c-a9c4-3e6533574367)
+
