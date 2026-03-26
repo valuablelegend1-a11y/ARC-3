@@ -5,7 +5,7 @@ I started off by creating some very basic and crude 2D paper drawings, that are 
 ![IMG_2253](https://github.com/user-attachments/assets/da8996ac-a6ed-421a-885a-42c6cb823fc1)
 ![IMG_2254](https://github.com/user-attachments/assets/44aef004-f42f-4ee0-b7f5-da53136003f7)
 
-***Time Spent: 2 Hours***
+*Time Spent: 2 Hours*
 
 **3/21/2026 11 AM - I designed the main body with support and alignment.**
 
@@ -13,21 +13,21 @@ I then started designing it all from the ground up in Autodesk Fusion (formerly 
 For the main body or 'base body' I started off with a 5 inch diameter outer edge, with a roughly 0.2 inch thickness to form a cylinder, I then extruded it to a height of 3 inches, to fit all electronics and mounts. From here I added a simple divider 0.3 inches from the bottom of the cylinder, so the base mount and electronics are separated. Next I measured out specific holes in the outer shell, that will fit the female sockets of both the Arduino input cable, and a DC cord for power from an outlet converter. After that I added a reinforced frame with screw holes, for the MG995 servo in the base, to ensure it was secure and correctly positioned, with simple support pillars for added strength. 
 ![Screenshot 2026-03-21 113335](https://github.com/user-attachments/assets/575cd18e-440e-49c4-824c-ce280ca9ae3e)
 
-***Time Spent: 5.5 Hours***
+*Time Spent: 5.5 Hours*
 
 **3/21/2026 4 PM - I created my BOM in csv format with links and pricing.**
 
 I had a bit more time than I expected today, so I decided to find all the specific parts I had planned, and put it in a BOM.csv document in my GitHub repository. While I was researching I found better pricing than I initially thought, and was able to slightly cut costs without hindering performance. I also realized my initial plan to use an MG90S servo for the fingers would likely not be enough, so I decided to just go with all MG995 servos, for both the joints and fingers, to simplify things and ensure functionality would not be limited. I also decided on specific filament types, choosing PETG for its ease of use and strength to weight ratio, along with better flexibility under tension. The specific filament brand I use is Elegoo, as that is the brand of my 3D printer, and the quality has been good so far, the only downside is a $15.00 shipping price, however that is including sales tax, so it may even out.
 ![Screenshot 2026-03-21 160516](https://github.com/user-attachments/assets/8f641399-a2be-4b2b-b7a5-7f5d457c690c)
 
-***Time Spent: 2.5 hours***
+*Time Spent: 2.5 hours*
 
 **3/22/2026 - I created the Base Top to be fitted and rotatable.**
 
 At this point I got started on the top piece, the 'base top' that will fit on the main body, be fully rotatable, and be directly connected to the base MG995 servo. It was fairly uncomplicated to make the main circular portion to fit on top of the body, I did it by making a thin cylinder that fits the inside of the body cylinder (with tolerance) and a slightly wider portion overtop of that, that covers it all up nicely. For the connection to the servo I decided to make a cutout that will perfectly fit the servo horn, so the horn can be screwed onto the servo, and then glued into the base top. After that I made a structure off the top of the 'lid' portion of this piece, to give distance between the yaw and pitch joints. I started out with a basic rectangle, and decided to go with a slightly more curvy shape and fileted edges, for a more aesthetical design. on top of this I put a 2 inch diameter circle, which I extruded to the length needed to fit the second MG995 servo. I made a cutout to fit the servo, with screw holes aligned for the edges to be aligned where needed, and included tolerance to ensure it fits correctly. I also left it slightly offset for stability of the next piece, and created a loft to smooth out the edges. 
 ![Screenshot 2026-03-22 134518](https://github.com/user-attachments/assets/7c70361e-59db-421d-a7cb-3d297224da40)
 
-***Time Spent: 5 Hours***
+*Time Spent: 5 Hours*
 
 **3/22/2026 9 PM - I built the first arm segment.**
 
@@ -36,7 +36,7 @@ Next up was the first arm segment, the 'arm bottom' which I went back and forth 
 Fortunately it was a simple fix to just re-cut out the servo hole, and not create a loft that restricted that space again. Then I slightly modified the design, so it was much more sleek and fit the servo and overall the way I wanted it to look, and I fixed some slight issues with the edges and repositioned the top portion.
 ![Screenshot 2026-03-23 101021](https://github.com/user-attachments/assets/0c9e3d98-6d94-4669-836c-ae6e3a3e7765)
 
-***Time Spent: 6 Hours***
+*Time Spent: 6 Hours*
 
 **3/23/2026 - I made channels through the designs for wiring.**
 
@@ -45,7 +45,7 @@ Today I decided to solve wiring, I need to have servo wires run from the fingers
 ![Screenshot 2026-03-23 102500](https://github.com/user-attachments/assets/2f55cd79-70e8-4e42-a585-f22d413a431a)
 <img width="853" height="921" alt="Screenshot 2026-03-23 102604" src="https://github.com/user-attachments/assets/84de4bfe-ab45-4ed0-9cce-65df3103c301" />
 
-***Time Spent: 3 Hours***
+*Time Spent: 3 Hours*
 
 **3/23/2026 5 PM - I designed the arm top to connect the fingers.**
 
@@ -53,7 +53,7 @@ Now I am starting the top portion that connects the fingers to the rest of the d
 ![Screenshot 2026-03-23 170800](https://github.com/user-attachments/assets/4224722d-8882-4064-90b8-abab7aa046ac)
 ![Screenshot 2026-03-23 170828](https://github.com/user-attachments/assets/4a328e0c-0ec4-424f-86d6-667fd8706d7f)
 
-***Time Spent: 5 Hours***
+*Time Spent: 5 Hours*
 
 *3/24/2026 - I created the gears with the correct teeth ratio.*
 
@@ -64,7 +64,7 @@ At first, since I am new to designing, I was hand creating every tooth, which wa
 And even though my second method of designing gears was faster, it still had it's downsides, so I went in search of a more efficient way. I found the obvious answer after not too long, the circular pattern function, which can duplicate a sketch around a circular axis evenly. I got it all set up, and sure enough, in less than 10 minutes I had perfectly symmetrical and aligned gears with the correct tooth amounts of 9 and 18.
 ![Screenshot 2026-03-24 113656](https://github.com/user-attachments/assets/3a805901-701d-4715-8d6b-db3d6a7d5d14)
 
-***Time Spent: 4.5 Hours***
+*Time Spent: 4.5 Hours*
 
 **3/24/2026 5 PM - I made the fingers with aligned gears.**
 
@@ -72,7 +72,7 @@ Today I started working on the fingers themselves, I started off with a slanted 
 ![Screenshot 2026-03-24 175037](https://github.com/user-attachments/assets/8bfaffa0-49e0-4057-9cf4-37ca60b9a793)
 ![Screenshot 2026-03-24 175050](https://github.com/user-attachments/assets/3d57e088-6760-4fe7-8183-0fe56f1d8f71)
 
-***Time Spent: 3.5 Hours***
+*Time Spent: 3.5 Hours*
 
 **3/25/2026 11 AM - I designed the base bottom with an interchangeable system**
 
@@ -80,14 +80,14 @@ Lastly for the modeling, I needed to get the base system set up, the 'base botto
 ![Screenshot 2026-03-25 110911](https://github.com/user-attachments/assets/5c176333-fd61-4e60-86e0-2d0736f58eea)
 ![Screenshot 2026-03-25 110924](https://github.com/user-attachments/assets/2a9e3aa4-c4ca-4ba8-b2e7-7295015f25c1)
 
-***Time Spent: 2.5 Hours***
+*Time Spent: 2.5 Hours*
 
 **3/25/2026 3 PM - I added the wiring diagram**
 
 Now that all the modeling is done, I decided to add my wiring diagram. So I researched, and ultimately decided to use EasyEDA, because it is free, web based, and very well liked. I first added on my Uno R4, and a basic power supply representation. I could not find the exact model of PCA9685 board that I am using, so I picked the closest one and added that as well. Then I went about connecting these two together, and to the power supply. After I ensured I did not have any wires crossed (quite literally) I added the MG995s to the diagram, in the actual PCA9685 I am using, the plug ins for all three servo wires are aligned, but in this board I found they are not. So I decided to just connect the wires to the literal power and signal wires they would be drawing from, even if they are in a different spot. I then saved it as a PDF and added that to my repository, and attached a separate screenshot here.
 ![Screenshot 2026-03-25 150108](https://github.com/user-attachments/assets/78b95068-590d-4ab8-94e6-64223869c3fe)
 
-***Time Spent: 1.5 Hours***
+*Time Spent: 1.5 Hours*
 
 **3/26/2026 - I made two separate assemblies**
 
@@ -95,4 +95,4 @@ Now that the majority of all the modeling was done, I decided to combine my part
 ![Screenshot 2026-03-26 114048](https://github.com/user-attachments/assets/6c4046e6-7175-4bf4-9215-4f0ed846a007)
 ![Screenshot 2026-03-26 114119](https://github.com/user-attachments/assets/8a7f8cf1-ed40-4b7b-a099-fdee8e791601)
 
-***Time Spent: 3 Hours***
+*Time Spent: 3 Hours*
