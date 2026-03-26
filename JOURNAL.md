@@ -118,3 +118,11 @@ Now that the majority of all the modeling was done, I decided to combine my part
 ![Screenshot 2026-03-26 114119](https://github.com/user-attachments/assets/8a7f8cf1-ed40-4b7b-a099-fdee8e791601)
 
 *Time Spent: 3 Hours*
+
+**3/26/2026 3 PM - I added a simple cutout for bearing balls**
+
+Secondly today, I realized I would want some bearing balls in the top portion of the base pieces, so they would rotate smoother and with less scraping. So I found some basic ones that fit my needs, and added them to my BOM with pricing and the link. I also realized that this brought my cost back up evenly to $180, as I found a cheaper part option the other day that lowered cost. Then I made a simple cutout in the top and bottom of my base body and base top pieces respectively, so everything would fit and turn smoothly.
+<img width="1059" height="1003" alt="Screenshot 2026-03-26 145605" src="https://github.com/user-attachments/assets/1cc268e4-edf6-4eb8-aaa9-ce7e8d1b821b" />
+<img width="1355" height="859" alt="Screenshot 2026-03-26 145551" src="https://github.com/user-attachments/assets/0e2d0895-7275-4138-a209-460d1a50aba6" />
+
+*Time Spent: 30 Minutes*
