@@ -74,6 +74,21 @@ Today I started working on the fingers themselves, I started off with a slanted 
 
 ***Time Spent: 3.5 Hours***
 
+**3/25/2026 11 AM - I designed the base bottom with an interchangeable system**
+
+Lastly for the modeling, I needed to get the base system set up, the 'base bottom'. I want the base to be able to be interchangeable, so I can have multiple of them, and easily move the arm around without unscrewing the whole base. To start I wanted to use an interlocking pin system, so I could slid it on and rotate it into place, so I started designing it. And very quickly I realized that this would be highly inefficient, as each pin would have limited size, and it could easily slide out. So I scrapped all that, and decided to start fresh. This time I decided to use a dovetail design, as it is super easy to both design, and to use in general. So I made a basic trapezoid on the top of my first baseplate, and created a matching sized cutout on the base of the arm (with tolerance). For the actual base plate I just made a simple square, with a slightly bigger length than the base body, and a hole in each of the corners for screws. This will allow my to create at least two, one for my desk and one for the wall, that I can bolt on and leave there and just remove the arm.
+![Screenshot 2026-03-25 110911](https://github.com/user-attachments/assets/5c176333-fd61-4e60-86e0-2d0736f58eea)
+![Screenshot 2026-03-25 110924](https://github.com/user-attachments/assets/2a9e3aa4-c4ca-4ba8-b2e7-7295015f25c1)
+
+***Time Spent: 2.5 Hours***
+
+**3/25/2026 3 PM - I added the wiring diagram**
+
+Now that all the modeling is done, I decided to add my wiring diagram. So I researched, and ultimately decided to use EasyEDA, because it is free, web based, and very well liked. I first added on my Uno R4, and a basic power supply representation. I could not find the exact model of PCA9685 board that I am using, so I picked the closest one and added that as well. Then I went about connecting these two together, and to the power supply. After I ensured I did not have any wires crossed (quite literally) I added the MG995s to the diagram, in the actual PCA9685 I am using, the plug ins for all three servo wires are aligned, but in this board I found they are not. So I decided to just connect the wires to the literal power and signal wires they would be drawing from, even if they are in a different spot. I then saved it as a PDF and added that to my repository, and attached a separate screenshot here.
+![Screenshot 2026-03-25 150108](https://github.com/user-attachments/assets/78b95068-590d-4ab8-94e6-64223869c3fe)
+
+***Time Spent: 1.5 Hours***
+
 **3/26/2026 - I made two separate assemblies**
 
 Now that the majority of all the modeling was done, I decided to combine my parts into two separate assemblies, one with electronics, and one without. I started from the bottom up, inserting everything into the first assembly -the non-electronics one- and arranging them all in the orientation they are meant to be in. Most of it was pretty simple, adding parts and moving them around, I had a few slight hiccups with accidentally moving them after initial orientation, which in turn messed up the geometry of the original design. However they had simple solutions to ensure nothing would be ruined. After I completed the first assembly, I started work on the one with electronics. I found CAD models for the servos, boards, and the like on GrabCAD, and set to work adding them to a file. This proved to be a slightly more complicated process, as some parts of my designs had gotten messed up along the way, so I had to redo multiple things so it all would fit correctly. Since it would be slightly difficult to add wires twisting the directions they would need to be in the design, I decided to add all components except wires, and just make a separate wiring diagram. Note: my particular design has all electronic components hidden on the inside, they are there, just not open visible without taking it apart.
