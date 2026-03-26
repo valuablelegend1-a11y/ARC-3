@@ -73,3 +73,11 @@ Today I started working on the fingers themselves, I started off with a slanted 
 ![Screenshot 2026-03-24 175050](https://github.com/user-attachments/assets/3d57e088-6760-4fe7-8183-0fe56f1d8f71)
 
 ***Time Spent: 3.5 Hours***
+
+**3/26/2026 - I made two separate assemblies**
+
+Now that the majority of all the modeling was done, I decided to combine my parts into two separate assemblies, one with electronics, and one without. I started from the bottom up, inserting everything into the first assembly -the non-electronics one- and arranging them all in the orientation they are meant to be in. Most of it was pretty simple, adding parts and moving them around, I had a few slight hiccups with accidentally moving them after initial orientation, which in turn messed up the geometry of the original design. However they had simple solutions to ensure nothing would be ruined. After I completed the first assembly, I started work on the one with electronics. I found CAD models for the servos, boards, and the like on GrabCAD, and set to work adding them to a file. This proved to be a slightly more complicated process, as some parts of my designs had gotten messed up along the way, so I had to redo multiple things so it all would fit correctly. Since it would be slightly difficult to add wires twisting the directions they would need to be in the design, I decided to add all components except wires, and just make a separate wiring diagram. Note: my particular design has all electronic components hidden on the inside, they are there, just not open visible without taking it apart.
+![Screenshot 2026-03-26 114048](https://github.com/user-attachments/assets/6c4046e6-7175-4bf4-9215-4f0ed846a007)
+![Screenshot 2026-03-26 114119](https://github.com/user-attachments/assets/8a7f8cf1-ed40-4b7b-a099-fdee8e791601)
+
+***Time Spent: 3 Hours***
