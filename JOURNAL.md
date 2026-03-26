@@ -7,6 +7,8 @@ I started off by creating some very basic and crude 2D paper drawings, that are 
 
 *Time Spent: 2 Hours*
 
+------------------------------------------------------------------------
+
 **3/21/2026 11 AM - I designed the main body with support and alignment.**
 
 I then started designing it all from the ground up in Autodesk Fusion (formerly Fusion 360).
