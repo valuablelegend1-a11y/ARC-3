@@ -16,6 +16,13 @@ I am creating this project for a couple reasons, I don't have much CAD experienc
 
 Here is the full assembly screenshot, wiring diagram, and BOM in table format with links.
 
+Assembly:
+<img width="1341" height="1138" alt="Screenshot 2026-03-26 114048" src="https://github.com/user-attachments/assets/43d78876-010a-4fa5-9947-3038451f413d" />
+
+Wiring Diagram:
+<img width="2522" height="1412" alt="Screenshot 2026-03-25 150108" src="https://github.com/user-attachments/assets/36a4b16f-0ab9-4d22-b1bb-70d68d1c05db" />
+
+BOM:
 | Item | Quantity | Unit Price | Link | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | MG995 Servos (4 pack) | 1 | 16.99 | https://www.amazon.com/gp/product/B07NQJ1VZ2/ref=ewc_pr_img_6?smid=A2QTZX14X1D97I&th=1 | For Pitch Joints And Fingers |
