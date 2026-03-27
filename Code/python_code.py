@@ -48,8 +48,7 @@ FONT_NORM = ("Courier New", 9)
 FONT_SM   = ("Courier New", 8)
 FONT_XS   = ("Courier New", 7)
 
-
-# --- INVERSE KINEMATICS ---
+# inverse kinematics
 # given a target 3D position, solve what joint angles are needed.
 # uses law of cosines on the two-link arm triangle.
 
