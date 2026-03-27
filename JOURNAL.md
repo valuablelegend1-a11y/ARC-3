@@ -134,3 +134,10 @@ library to use with the PCA9685 to control the servos. I decided to set it up so
 <img width="2002" height="1227" alt="Screenshot 2026-03-27 104405" src="https://github.com/user-attachments/assets/2d1be920-c3c8-4509-b104-cd1eee73552a" />
 
 *Time Spent: 2.5 Hours*
+
+**3/27/2026 3 PM - I coded the Python script**
+
+After completing the Arduino firmware, I got started on the Python program, which will be mostly for the angle input and GUI, with some added benefits. i decided to put calculation, communication, and visualization into three separate lanes, the Main Thread handles drawing the Tkiinter window, which was a process to figure out, because Tkinter doesn't like multi-threading, so I used afteridle to 'drop' and 'pick up' the thread. Then the Motion Thread ensures it runs at 50Hz, so the servos dont just jump to the target, but rather glide smoothly to the set position. Lastly an AI Socket Thread that sits and waits for commands, it doesn't move the servos itself, it just updates the targetangle variable, so the Motion Thread can notice it and act upon it. Next I used an IK solver to work trigonometry to turn a 3D point into servo degrees. it does this by treating the arm as a triangle, and using the Law of Cosines to calculate the interior angle of the elbow. It also has a simple 'elbow up' flag, to ensure it does not try to reach the selected position whilst flipping the orientation back and forth. Also some simple coordinate mapping ensures that the servos understand that their horizontal (90 degrees) is actually up, and 0 degrees is actually flat, it does this by using 90 - degrees(rad_angle) to translate the servo position correctly to what we see vs what the servo thinks. Then I added all the filler and def commands, and did brief revising to have it be somewhat clean, and added simple comments for most commands to help explain functions.
+<img width="3223" height="1679" alt="Screenshot 2026-03-27 153052" src="https://github.com/user-attachments/assets/1151f419-8f26-4409-b94c-6cf5f403ce65" />
+
+*Time Spent: 4 Hours*
