@@ -1,6 +1,6 @@
 **Python Libraries:**
 All libraries used are part of the Python Standard Library; no external pip installations are required.
-* tkinter/simpledialog: GUI framework.
+* tkinter/simpledialog: GUI framework and processing
 * socket/threading: Networking and concurrent data handling.
 * json, math, time, os, csv, datetime: Data processing and system management.
 
