@@ -13,6 +13,7 @@ I am creating this project for a couple reasons, I don't have much CAD experienc
 1. Total cost is aproximately $180.00 USD, this is including sales tax and extra shipping costs, however costs may shift depending on store circumstances.
 2. The code is using advanced IK and trigonometry functions, which are things I have not have had much time to study, therefore they may be incorrect. If so please let me know, so I can correct any issues.
 3. Any further suggestions as to design or improvements are highly encouraged and greatly appreciated.
+4. My full assembly design titled 'assembly_with_electronics' *does* have electronics, but since I designed them to be safely tucked away from view, none of them are visible from the outside. 
 
 Here is the full assembly screenshot, wiring diagram, and BOM in table format with links.
 
