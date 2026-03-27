@@ -126,3 +126,11 @@ Secondly today, I realized I would want some bearing balls in the top portion of
 <img width="1355" height="859" alt="Screenshot 2026-03-26 145551" src="https://github.com/user-attachments/assets/0e2d0895-7275-4138-a209-460d1a50aba6" />
 
 *Time Spent: 30 Minutes*
+
+**3/27/2026 - I wrote the Arduino firmware**
+
+Now that everything manual is established, I went to work on the code. I will be writing some firmware to put on the Arduino Uno R4, and some additional Python code for precise calculations and smooth movement, along with a simple GUI for user-friendly control. To start, I built the Arduino code, I haven't had a lot of experience building INO files, but I did some research and got to work making it all function. I used the WiFiS3 library which is the Uno R4's built in library, and added the Adafruit_PWMServoDriver
+library to use with the PCA9685 to control the servos. I decided to set it up so the commands could come in using ASCII with \n at the end acting as an 'enter' button, so it puts the bytes into cmdBuffer until it sees \n, then calls handleCommand to run it. Here is how I handled the PWM math. Since MG995 servos use standard RC PWM: 50Hz frequency and 20ms period, with pulse width between 500Us (0°) and 2500Us (180°), and a 12 bit counter, starting from 0 that's a total of 4096 ticks per period, which means the conversion is ticks = pulseUs * 4096 / 20,000, meaning the setPWM call sets the on ticks to 0 and the off tick to ticks, which produces ticks/4096 * 20ms pulse at the output pin.
+<img width="2002" height="1227" alt="Screenshot 2026-03-27 104405" src="https://github.com/user-attachments/assets/2d1be920-c3c8-4509-b104-cd1eee73552a" />
+
+*Time Spent: 2.5 Hours*
