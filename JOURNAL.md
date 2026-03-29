@@ -141,3 +141,10 @@ After completing the Arduino firmware, I got started on the Python program, whic
 <img width="3223" height="1679" alt="Screenshot 2026-03-27 153052" src="https://github.com/user-attachments/assets/1151f419-8f26-4409-b94c-6cf5f403ce65" />
 
 *Time Spent: 4 Hours*
+
+**3/29/2026 - I finished my repository and added licenses**
+
+Lastly for the planning portion of this project, I wrapped up my GitHub Repository. This included editing the README with text sizes and correct images, adding simple explanations to my other folders for extra direction, and editing my journal and BOM files. I then created a license file, and added all the specifics of how I wanted it to be used, including adding an MIT license for the code, and a CC BY-SA 4.0 for everything else. To finish it off I did a quick once over of every file, image, folder, and the like, just to ensure that everything was in place how I wanted it to be.
+![Screenshot 2026-03-29 141833](https://github.com/user-attachments/assets/c0306f16-8489-422f-9d57-3e99d01c37ab)
+
+*Time Spent: 1 Hour*
