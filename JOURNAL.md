@@ -148,3 +148,11 @@ Lastly for the planning portion of this project, I wrapped up my GitHub Reposito
 ![Screenshot 2026-03-29 141833](https://github.com/user-attachments/assets/c0306f16-8489-422f-9d57-3e99d01c37ab)
 
 *Time Spent: 1 Hour*
+
+**4/9/2026 - I edited designs and removed a soldering iron from my BOM**
+
+I decided to edit the servo horn securing situation, so the parts would hold together without glue or other methods, and can be
+easily removed and edited as needed. I also updated my BOM to remove a soldering iron from my costs, as that is not a part of my materials list.
+<img width="1359" height="1167" alt="Screenshot 2026-04-09 114540" src="https://github.com/user-attachments/assets/57b31477-015e-4568-a818-8caffe6a429d" />
+
+*Time Spent: Half an Hour*
