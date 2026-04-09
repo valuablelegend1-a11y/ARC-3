@@ -10,7 +10,7 @@ To start off, you need to ensure weight distribution is good, I would place it i
 I am creating this project for a couple reasons, I don't have much CAD experience, so I am using this to learn more about the process, and how I can be more efficient with it. Ultimately to acheive my goals faster and more effectively. I also have little practice with wiring systems, I have done some light Arduino projects in the past, but nothing of this level. So I am doing my best to learn how it all works, and how I can put different things together to make something new. Another reason is to learn to code better, I have done some programming in Python, and barely scratched the surface in Arduino code, aka C/C++, so I am trying to put what I know together, and learn more along the way to expand my understanding of the languages. 
 
 ## Notes:
-1. Total cost is aproximately $180.00 USD, this is including sales tax and extra shipping costs, however costs may shift depending on store circumstances.
+1. Total cost is aproximately $155.00 USD, this is including sales tax and extra shipping costs, however costs may shift depending on store circumstances.
 2. The code is using advanced IK and trigonometry functions, which are things I have not have had much time to study, therefore they may be incorrect. If so please let me know, so I can correct any issues.
 3. Any further suggestions as to design or improvements are highly encouraged and greatly appreciated.
 4. My full assembly design titled 'assembly_with_electronics' *does* have electronics, but since I designed them to be safely tucked away from view, none of them are visible from the outside. 
