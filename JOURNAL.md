@@ -156,3 +156,10 @@ easily removed and edited as needed. I also updated my BOM to remove a soldering
 <img width="1359" height="1167" alt="Screenshot 2026-04-09 114540" src="https://github.com/user-attachments/assets/57b31477-015e-4568-a818-8caffe6a429d" />
 
 *Time Spent: Half an Hour*
+
+**4/26/2026 - I edited my BOM with better price management**
+
+So after my initial project review, I was encouraged to use better cost optimization and find better prices. So I searched for a while, found some better deals and prices, and added everything to both my BOM.csv file and in my readme. I also removed filament from my BOM, as I found out it would not be funded. This lowered my total to $51.00 USD, or $107.00 USD including filament, which I will buy myself.
+<img width="2000" height="859" alt="Screenshot 2026-04-26 141846" src="https://github.com/user-attachments/assets/615dd833-3063-4008-9e3f-e31dc28f7f4c" />
+
+*Time Spent: 1 Hour*
