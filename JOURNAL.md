@@ -173,3 +173,13 @@ I pulled the design into the slicer, and oriented it to lay on it's side, so tha
 <img width="1158" height="895" alt="WIN_20260613_19_17_12_Pro" src="https://github.com/user-attachments/assets/2d6d96d8-3b1f-4776-baa0-faeca0e3bd16" />
 
 *Time Spent: 2 Hours*
+
+**6/14/2026 - I iterated and printed the next part**
+
+So for the next part, the 'base_top' I wanted to print it on its side for better integrity. I got it all sliced, and it only used a little more support than it would if it was in the suggested orientation. I got it all set up and started printing it. About 3 hours in, I went to check on it, only to find that it spaghettied horribly (filament strands everywhere and trying to print on thin air). So I modified the orientation, added beefier supports, and edited settings for a hopefully smoother print. After another 3 hours of printing, at the exact same second it failed again. I still have no idea why this happened and even the footage doesn't reveal it. For this one however, the completed portion was more salvagable than its successor, so I was able to test attaching half of it to the previous piece. This revealed that although they would fit together, they would not lock tight enough, and the clips were so weak that even removing support structure snapped two of them. So I took a step back, fixed the compromised faces in CAD, and switched the part orientation instead to the suggested side. The reasons I didn't do this originally were 1. It could make the part slightly less strong under load (I raised the wall count and infill to compensate) and 2. I couldn't put that nice green stripe up the center like the last piece (I will have to later glue on a piece of green or just go without it). Ultimately the part turned out and worked very well with just some minor sanding.
+<img width="1274" height="737" alt="Screenshot 2026-06-13 165454" src="https://github.com/user-attachments/assets/326a76e3-3324-4c40-ad09-33c895ce29dc" />
+<img width="1555" height="924" alt="WIN_20260614_17_00_31_Pro" src="https://github.com/user-attachments/assets/afc67621-dc78-40ef-ae11-fa2e6d5a45ad" />
+<img width="1270" height="741" alt="Screenshot 2026-06-14 171107" src="https://github.com/user-attachments/assets/ab997fbb-e04a-4eb7-b592-b0b4ec855055" />
+<img width="992" height="929" alt="WIN_20260614_16_46_46_Pro" src="https://github.com/user-attachments/assets/67ea11a0-b43f-4641-a396-7f669e4a9e77" />
+
+*Time Spent: 4 Hours*
