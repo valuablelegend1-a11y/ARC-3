@@ -169,6 +169,7 @@ So after my initial project review, I was encouraged to use better cost optimiza
 So I finally got the filament, and decided to start on printing the parts from the ground up (mostly).
 I started off with the 'base_body' piece, which is the main cylindrical body that will hold the power converter, arduino board, and the base servo for pitch (left-right) movement.
 I pulled the design into the slicer, and oriented it to lay on it's side, so that and tension on the piece will not just rip between the layers and snap it. I used 75% gyroid infill, for high density but without wasting material. Then I added two pauses to the print, to switch the filament from black to green, then back to black to get a nice center green stripe. It used about 200g of filament and took a bit over 6 hours, and turned out very well with some light support scarring but no other issues.
-Screenshot 2026-06-13 190903
+<img width="1277" height="737" alt="Screenshot 2026-06-13 190903" src="https://github.com/user-attachments/assets/9e9a76f6-7c04-4447-9394-11f25a3f807d" />
+<img width="1158" height="895" alt="WIN_20260613_19_17_12_Pro" src="https://github.com/user-attachments/assets/2d6d96d8-3b1f-4776-baa0-faeca0e3bd16" />
 
 *Time Spent: 2 Hours*
