@@ -183,3 +183,12 @@ So for the next part, the 'base_top' I wanted to print it on its side for better
 <img width="992" height="929" alt="WIN_20260614_16_46_46_Pro" src="https://github.com/user-attachments/assets/67ea11a0-b43f-4641-a396-7f669e4a9e77" />
 
 *Time Spent: 4 Hours*
+
+
+**6/16/2026 - I made my best 3D print ever!**
+
+The next piece in my lineup was the 'arm_bottom' piece, which is the center of the arm, and the only piece featuring the servo moving it and its own servo rotating the same way! This piece was fairly simple to setup, I just used the auto orientation and added two simple pauses for the color change. I also lowered the infill to 65%, because this part is so solid that any more than that is just wasting material. It printed in a few hours, and everything went perfectly. When it finished, I was in shock by how perfectly it came out. With no supports and no odd angles, it had the perfect setup to print amazing, and it did not disappoint. There were no botched sides, no random strings, and no print scars whatsoever. It truly is a masterpiece.
+<img width="1278" height="740" alt="Screenshot 2026-06-16 114506" src="https://github.com/user-attachments/assets/3c05d281-857f-4e25-b246-46daaf58e61c" />
+<img width="1920" height="1080" alt="WIN_20260616_12_49_25_Pro" src="https://github.com/user-attachments/assets/f8fc7f89-be4a-453b-bbed-c7cd413ba17c" />
+
+*Time Spent: 1.5 Hours*
