@@ -192,3 +192,13 @@ The next piece in my lineup was the 'arm_bottom' piece, which is the center of t
 <img width="1920" height="1080" alt="WIN_20260616_12_49_25_Pro" src="https://github.com/user-attachments/assets/f8fc7f89-be4a-453b-bbed-c7cd413ba17c" />
 
 *Time Spent: 1.5 Hours*
+
+
+**6/23/2026 - I made the next piece**
+
+Next up to create was the 'arm_top' which is a very important piece, because it will hold the fingers, gears, and the servo to move those. It is also set up in such a way that it is rather difficult to print, as there are multiple different angles and parts to it. I set this piece up using a much lower infill of 45%, because it is not taking as much stress from multiple angles. The first version used auto orientation, and pretty similar support settings to it's predecessor. It got done with the first half perfectly, but about 2 hours in, it completely flopped. Stringing everywhere, sides peeling off the bed, and messed up sides. So I messed with the support settings for a bit, changed the angle to fully sideways, and wiped off the build plate for better adhesion. This one worked perfectly, it came out smooth and the supports peeled right off. I realized after the fact that I had not done a thorough wipe down of the plate, and that was likely why so many prints had failed.
+<img width="1276" height="742" alt="Screenshot 2026-06-16 114432" src="https://github.com/user-attachments/assets/e7099517-9ffc-4e1c-b8a0-4f2502cab955" />
+<img width="1920" height="1080" alt="WIN_20260616_12_49_51_Pro" src="https://github.com/user-attachments/assets/1fe3eec1-6964-4c7d-9740-19a8a683cc9d" />
+
+*Time Spent: 2.5 Hours*
+
