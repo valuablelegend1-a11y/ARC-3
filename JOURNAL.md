@@ -202,3 +202,11 @@ Next up to create was the 'arm_top' which is a very important piece, because it 
 
 *Time Spent: 2.5 Hours*
 
+
+**6/23/2026 3:59 PM - I printed the gears green**
+
+After all the previous prints, it was very satisfying to have a simple print that basically couldn't fail: The gears. They are flat on the top and bottom, rather small, and overall a simple structure. I set them up in the slicer at 80% infill since they will be under a lot of strain, and set up the printer with just green filament for them. Since they will be laying down, and that is the orientation I am printing them, doing multiple colors would be useless. So i did just green to get a nice color pop for the top, and because that is what i have the most of. They printed great, super quick and no issues, and they fit perfectly on the previous piece. Another print down.
+<img width="1279" height="740" alt="Screenshot 2026-06-16 114535" src="https://github.com/user-attachments/assets/c830a157-1376-4e0b-88c3-fef85d14179e" />
+<img width="1920" height="1080" alt="WIN_20260623_15_53_42_Pro" src="https://github.com/user-attachments/assets/ba3830f1-fb9e-45ee-ade1-70c122a799aa" />
+
+*Time Spent: 45 minutes*
