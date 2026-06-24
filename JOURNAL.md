@@ -211,3 +211,11 @@ After all the previous prints, it was very satisfying to have a simple print tha
 <img width="1920" height="1080" alt="WIN_20260623_15_53_42_Pro" src="https://github.com/user-attachments/assets/ba3830f1-fb9e-45ee-ade1-70c122a799aa" />
 
 *Time Spent: 45 minutes*
+
+**6/24/2026 - I created the fingers**
+
+The next piece to do was the fingers. I knew it would be crucial for these to print well, as they are doing all the -quite literally- heavy lifting. So I set them up in the slicer, using the same 80% infill as the last piece for strength, and 4 walls for thickness. I got them set up to print, and just as they started, I realized that I had forgotten to add a color switch. I went to just add it, but I realized it would not look right with the rest of the pieces, and at the same time I noticed how bad the orientation was. They were vertical, meaning tension on them could pull them apart between the layers, and printing time would just be very long. So I reoriented them (I dont have a picture of that) and added the color change. They printed great, and fit in the slots on the 'arm-top' perfectly.
+<img width="1276" height="736" alt="Screenshot 2026-06-16 114547" src="https://github.com/user-attachments/assets/e5c7d9ee-5659-400a-a7ab-c0f035d49fa0" />
+<img width="1920" height="1080" alt="WIN_20260623_16_17_50_Pro" src="https://github.com/user-attachments/assets/d99022fe-8286-45c8-8063-895d0b1dba46" />
+
+Time Spent: 2 Hours
