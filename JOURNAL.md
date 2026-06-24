@@ -1,4 +1,3 @@
-<img width="1148" height="910" alt="Screenshot 2026-03-22 134518" src="https://github.com/user-attachments/assets/c2b0f917-a877-4160-a0eb-156bbdd0d029" />
 **3/20/2026 - I created basic paper drawings of my concept.**
 
 I started off by creating some very basic and crude 2D paper drawings, that are not to scale, but helped me get a good picture of how I wanted the project to come together. There is one of the whole deign concept, one of the claw, and one of a simple wiring diagram, the MG995 and MG90s servos will all channel throughout the arm down to the PCA9685, which will connect to the arduino uno, both of which will be powered by an AC-DC converter. 
