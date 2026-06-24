@@ -1,3 +1,4 @@
+<img width="1148" height="910" alt="Screenshot 2026-03-22 134518" src="https://github.com/user-attachments/assets/c2b0f917-a877-4160-a0eb-156bbdd0d029" />
 **3/20/2026 - I created basic paper drawings of my concept.**
 
 I started off by creating some very basic and crude 2D paper drawings, that are not to scale, but helped me get a good picture of how I wanted the project to come together. There is one of the whole deign concept, one of the claw, and one of a simple wiring diagram, the MG995 and MG90s servos will all channel throughout the arm down to the PCA9685, which will connect to the arduino uno, both of which will be powered by an AC-DC converter. 
@@ -31,7 +32,8 @@ I had a bit more time than I expected today, so I decided to find all the specif
 **3/22/2026 - I created the Base Top to be fitted and rotatable.**
 
 At this point I got started on the top piece, the 'base top' that will fit on the main body, be fully rotatable, and be directly connected to the base MG995 servo. It was fairly uncomplicated to make the main circular portion to fit on top of the body, I did it by making a thin cylinder that fits the inside of the body cylinder (with tolerance) and a slightly wider portion overtop of that, that covers it all up nicely. For the connection to the servo I decided to make a cutout that will perfectly fit the servo horn, so the horn can be screwed onto the servo, and then glued into the base top. After that I made a structure off the top of the 'lid' portion of this piece, to give distance between the yaw and pitch joints. I started out with a basic rectangle, and decided to go with a slightly more curvy shape and fileted edges, for a more aesthetical design. on top of this I put a 2 inch diameter circle, which I extruded to the length needed to fit the second MG995 servo. I made a cutout to fit the servo, with screw holes aligned for the edges to be aligned where needed, and included tolerance to ensure it fits correctly. I also left it slightly offset for stability of the next piece, and created a loft to smooth out the edges. 
-![Screenshot 2026-03-22 134518](https://github.com/user-attachments/assets/7c70361e-59db-421d-a7cb-3d297224da40)
+<img width="1148" height="910" alt="Screenshot 2026-03-22 134518" src="https://github.com/user-attachments/assets/f72d685a-f1a0-4017-8baf-2f7399950a86" />
+
 
 *Time Spent: 5 Hours*
 
