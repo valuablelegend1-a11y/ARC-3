@@ -219,3 +219,11 @@ The next piece to do was the fingers. I knew it would be crucial for these to pr
 <img width="1920" height="1080" alt="WIN_20260623_16_17_50_Pro" src="https://github.com/user-attachments/assets/d99022fe-8286-45c8-8063-895d0b1dba46" />
 
 Time Spent: 2 Hours
+
+
+**7/4/2026 - I received the parts! Well, most of them.**
+
+My electronics finally came in! They arrived intact, and at first it seemed that they had all successfully arrived. But when I got to the end of the package, I saw there was no AC-DC converter(power cable whatsoever. Thankfully all the other components came in and looked great, and it was great to see them all lain out on my workbench. Unfortunately the package weight suggested that potentially the cable was at one point in the package, and must have been later lost in transit or stolen. So I reached out to AliExpress and the manufacturer(which I didn't expect to hear back from). And began the waiting process of getting the refund to order a new one. The next day I checked on the refund status, only to realize that they wanted 'more proof' that I had not received the item. Which is kinda difficult to prove, as I literally did not receive it. So I just did my best to emphasize the fact that I received the other 7 items, and the package weight showed that at one point the cable was likely inside. For now I will continue to contact the manufacturer and the shipping company, and hope one of these three will respond so I can go about purchasing a new part. 
+![Screenshot 2026-07-04 190030](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYyNTYxLCJwdXIiOiJibG9iX2lkIn19--be74c215b6fe7a0c29e7284021cfc37a69fbf197/Screenshot%202026-07-04%20190030.png)![WIN_20260704_18_59_43_Pro](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTYyNTYyLCJwdXIiOiJibG9iX2lkIn19--fb5222003363fa0bdcb99fe4cc9d8c155031476a/WIN_20260704_18_59_43_Pro.jpg)
+
+*Time Spent: 1 Hour*
