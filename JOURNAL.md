@@ -246,3 +246,12 @@ Now that most of my parts were in, it was time to test them and hope my toleranc
 <img width="1920" height="1080" alt="WIN_20260706_13_02_02_Pro" src="https://github.com/user-attachments/assets/7c907c83-aafc-4459-88e7-1cdf10c1d792" />
 
 *Time Spent: 2 Hours*
+
+
+**7/6/2026 2 PM - I redesigned a part**
+
+So unfortunately since the servos had an unexpected piece attached, I had to redesign one of my parts. Which wasn't all too bad, considering that there were some other slight issues with it that could've been ignored, but were worth fixing while I was at it. So I pulled the design back up in fusion, and edited a bunch of the positioning so everything fit better. I got it printing right away and it seemed to turn out as expected(9 hour print) but then the realization hit, in my midnight redesign spree I had accidentally shifted the space for the servo a half-inch in the wrong direction. So now instead of being 0.5in off alignment, it was a full inch off, which wouldn't even partially work. So I went back to the drawing board, undid all my work, and shifted it back in the other direction. This turned out to make the space for the servo stick slightly out of the side of the part, which was something I was really trying to avoid, since this was meant to be a 'sleek and adaptable' robotic arm. This lead to more redesigning to cover up the slot, and in turn actually gave the piece a slightly new look that I actually enjoyed. And since the new design gave the circular top portion more support, and that was the only part that was really under any stress, I was able to lower the infill to just 35% (down from 45%) which basically compensated for the added material of the redesigned portion.
+<img width="1920" height="1080" alt="WIN_20260706_14_23_59_Pro" src="https://github.com/user-attachments/assets/983e0d77-12c8-4c97-9058-0a26393e3e3d" />
+<img width="1277" height="740" alt="Screenshot 2026-07-06 142203" src="https://github.com/user-attachments/assets/fe8b9b25-d61f-4540-9945-9a82b18359a0" />
+
+*Time Spent: 2.5 Hours*
