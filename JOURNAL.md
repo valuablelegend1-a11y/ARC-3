@@ -212,6 +212,7 @@ After all the previous prints, it was very satisfying to have a simple print tha
 
 *Time Spent: 45 minutes*
 
+
 **6/24/2026 - I created the fingers**
 
 The next piece to do was the fingers. I knew it would be crucial for these to print well, as they are doing all the -quite literally- heavy lifting. So I set them up in the slicer, using the same 80% infill as the last piece for strength, and 4 walls for thickness. I got them set up to print, and just as they started, I realized that I had forgotten to add a color switch. I went to just add it, but I realized it would not look right with the rest of the pieces, and at the same time I noticed how bad the orientation was. They were vertical, meaning tension on them could pull them apart between the layers, and printing time would just be very long. So I reoriented them (I dont have a picture of that) and added the color change. They printed great, and fit in the slots on the 'arm-top' perfectly.
@@ -221,6 +222,14 @@ The next piece to do was the fingers. I knew it would be crucial for these to pr
 Time Spent: 2 Hours
 
 
+**6/26/2026 - I made the final piece!**
+
+Then came the time to create: The last piece, the 'base_bottom'. Which is a very crucial piece, as this is the actual base that the whole arm will be mounted on. The first version is actually pretty simple, it uses a dovetail joint to nicely slide onto the body, and 4 simple holes to be screwed into the desired surface. Later on there will be multiple different bases set up at different locations, so I can just slide the arm off one base and onto the next. But for now, this simple one will work great for testing! I got it sliced up at 80% infill and 4 walls for high strength, and oriented it on it's side. Which was rather sad to do, because it would have been great to print it fast and flat, but having good layer direction is better in this case. I first decided to print a quick test piece of the dovetail joint, because it worked great in the assembly, but tolerances change things. The first one did not fit at all, it was just a bit misaligned and it made the whole thing wayyy off. The second one was better, but it was very very tight, not really what you want for quick switchability. Then the final test piece worked great, so I printed the final version with those updated measurements. It came out very well, and fit as expected.
+<img width="1277" height="743" alt="Screenshot 2026-06-26 164732" src="https://github.com/user-attachments/assets/769fa5cf-9841-416a-9052-76fac5cfb98c" />
+<img width="1920" height="1080" alt="WIN_20260626_16_36_20_Pro" src="https://github.com/user-attachments/assets/d87d1149-07a8-45ec-9cdd-2b03d40907f7" />
+
+*Time Spent: 1.5 Hours*
+
 **7/4/2026 - I received the parts! Well, most of them.**
 
 My electronics finally came in! They arrived intact, and at first it seemed that they had all successfully arrived. But when I got to the end of the package, I saw there was no AC-DC converter(power cable whatsoever. Thankfully all the other components came in and looked great, and it was great to see them all lain out on my workbench. Unfortunately the package weight suggested that potentially the cable was at one point in the package, and must have been later lost in transit or stolen. So I reached out to AliExpress and the manufacturer(which I didn't expect to hear back from). And began the waiting process of getting the refund to order a new one. The next day I checked on the refund status, only to realize that they wanted 'more proof' that I had not received the item. Which is kinda difficult to prove, as I literally did not receive it. So I just did my best to emphasize the fact that I received the other 7 items, and the package weight showed that at one point the cable was likely inside. For now I will continue to contact the manufacturer and the shipping company, and hope one of these three will respond so I can go about purchasing a new part. 
@@ -228,3 +237,12 @@ My electronics finally came in! They arrived intact, and at first it seemed that
 <img width="815" height="540" alt="Screenshot 2026-07-04 190030" src="https://github.com/user-attachments/assets/a8bd2456-6eef-4ca9-a264-2ac7ea106b18" />
 
 *Time Spent: 1 Hour*
+
+
+**7/6/2026 - I tested the parts**
+
+Now that most of my parts were in, it was time to test them and hope my tolerances were enough. And immediately upon pulling the servos out of the bag, I could see that they were not quite as described. On each one on the side where the wires come out, there was a little plastic knob protruding from the side to cover the wire entrance. This wouldn't have been an issue, except that this was not on any of the seller images(I went back and checked) so I had not factored it into my designs. And unfortunately this meant that the servos would not fit into any of the parts right away. Thankfully on the three of the pieces it was fairly simple to carve out a slot, with just a bit of time and elbow grease. And all in all the other parts appeared to look good, and there was nothing else that really needed fitting tests, so everything should go as planned. --see next journal entry because one piece did need to be redone but it is a long process so I'll put it in a separate entry--
+<img width="1920" height="1080" alt="WIN_20260706_12_52_27_Pro" src="https://github.com/user-attachments/assets/53a57496-32ea-4f1e-bd2c-ec1706d3cb38" />
+<img width="1920" height="1080" alt="WIN_20260706_13_02_02_Pro" src="https://github.com/user-attachments/assets/7c907c83-aafc-4459-88e7-1cdf10c1d792" />
+
+*Time Spent: 2 Hours*
