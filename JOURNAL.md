@@ -255,3 +255,12 @@ So unfortunately since the servos had an unexpected piece attached, I had to red
 <img width="1277" height="740" alt="Screenshot 2026-07-06 142203" src="https://github.com/user-attachments/assets/fe8b9b25-d61f-4540-9945-9a82b18359a0" />
 
 *Time Spent: 2.5 Hours*
+
+
+**7/16/26 - I designed and printed the feet**
+
+Next thing to create was the 'base_feet', which I decided to design to literally slide onto my current base piece, for easier connection and less redesigning. I started off with just the basic corner shape and a cylinder in the corner to slot in nicely, then the foot coming off the side for the stability. It printed quick and came out well. The tolerance was absolutely perfect, like I genuinely have only ever achieved this perfect of a fit once or twice, and this is one of them. And since it fit, I decided to head back to fusion and give it a little bit of a stylistic look, and it also will increase the strength when under a lot of tension from the leaning arm. 
+<img width="4284" height="5712" alt="IMG_2663" src="https://github.com/user-attachments/assets/f5cb3c7b-42f6-483b-96d8-7442fd5a3410" />
+<img width="4284" height="5712" alt="IMG_2664" src="https://github.com/user-attachments/assets/5db41673-1e4c-4481-b2f0-6448b085018f" />
+
+*Time Spent: 1 Hour*
