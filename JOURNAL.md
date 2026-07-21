@@ -264,3 +264,24 @@ Next thing to create was the 'base_feet', which I decided to design to literally
 <img width="4284" height="5712" alt="IMG_2664" src="https://github.com/user-attachments/assets/5db41673-1e4c-4481-b2f0-6448b085018f" />
 
 *Time Spent: 1 Hour*
+
+
+**7/17/26 - I modified a design for usability**
+
+So I really liked my design for the base pieces, using a dovetail shape for simple moving and replacing. But there was one slight issue, the base_body could literally just slide off the side of the dovetail when the arm was moving. And I knew this was a point of concern, but I hadn't really decided how to fix it until now. Really it was quite simple, I just cut out small slots on both ends of the base_bottom dovetail, and extended the sides a little past the size of the base_body. Then I made a couple little pins that could slide in those slots, and keep the whole thing stuck tightly together, while maintaining the simple switch out I wanted.
+<img width="4284" height="5712" alt="IMG_2665" src="https://github.com/user-attachments/assets/e786b28b-4bbb-4bf1-bc79-2e01cdc48602" />
+<img width="4284" height="5712" alt="IMG_2666" src="https://github.com/user-attachments/assets/0e84beb0-3cc4-4b7d-9e50-da0d47c45153" />
+<img width="4032" height="3024" alt="IMG_2667" src="https://github.com/user-attachments/assets/aaed3267-c071-4dcb-9d2e-455e50c42fdf" />
+
+*Time Spent: 45 Minutes*
+
+
+**7/21/26 - I tested and fixed the code**
+
+So now that my replacement power source came in(the first one was missing from the order) I could finally test out the whole setup before assembly! So i got it all wired, double checked my wires, and flashed the code. The arduino instantly displayed it's IP address, so i plugged that into the python code to run the whole system. The python code initaited beautifully, and the GUI looked great. But of course, no system ever works the first time, or usually the second either. And alas, when I moved the arm position in the GUI, i got absolutely no reaction from the servos. My first thought was that the power source wasn't working, so I redid the wiring on that multiple times, still nothing. I did some more research on possible issues, and it seemed like the only viable answer was that either the power connection was bad, or the PCA module was DOA(dead on arrival). But in a moment of clarity, I decided to write a test script that simply moved all the servos with no initation. And that worked perfectly, they all spun and did exactly what they were supposed to. So then I knew it was an issue with the python code, I spent over an hour debugging and redoing things, but for the most part everything seemed good, but the tests still failed. Finally, after hours of testing, I saw my ridicously obvious mistake, I had forgotten to click the 'connect' button in my GUI. Literally a simple click had wasted hours of my time and a significant amount of AI token usage. So I reran the program, clicked the connect button, and it still didn't work. This time I was able to find the issue much sooner, again a stupidly simple fix of the power converter plug falling out of the outlet. After plugging back in and reinitializing, it ran perfectly! All the servos turned as intended and the GUI functioned correctly! After that I spent a little bit of time just editing the code to make the servos spin more smoothly, and a couple other simple updates, but it all worked as intended!
+<img width="4284" height="5712" alt="IMG_2670" src="https://github.com/user-attachments/assets/8327fd1d-5b91-4707-8101-ac6f0e05cebf" />
+<img width="5712" height="4284" alt="IMG_2671" src="https://github.com/user-attachments/assets/c10b1f65-b47a-4619-ba76-2fbe180810c7" />
+
+*Time Spent: 2.5 Hours*
+
+
