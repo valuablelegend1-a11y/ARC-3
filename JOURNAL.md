@@ -285,3 +285,21 @@ So now that my replacement power source came in(the first one was missing from t
 *Time Spent: 2.5 Hours*
 
 
+**7/22/26 - I started assembly!**
+
+This was my first day of true assembly! Finally after months of work getting to actually put the parts together and set it all up! So I started off with making sure all the servo horns fit in the slots, but of course, they did not. Even with scaling and tolerances and everything they did not fit. So i went through the tedious process, of using a soldering iron to melt out layers of plastic on the inside of the parts. Even after doing this for a while on one part, it still did not fit whatsoever. Then I finally had a 'duh' moment, and realized I could just melt down the servo horn itself to fit better. So in another 15 minutes I had one servo horn that fit perfectly, and got started on the next, which went so much faster with this new technique. Before too long I had them all fitting perfectly and nicely glued in place. I also got the PCA module with it's power plug and the arduino with it's battery all glued into the base.
+<img width="240" height="320" alt="new2" src="https://github.com/user-attachments/assets/568c2e70-e60c-480e-90bc-9808a06898fd" />
+<img width="320" height="280" alt="new" src="https://github.com/user-attachments/assets/00490abb-8a10-4d58-99f4-6ec241732bfe" />
+
+*Time Spent: 2 Hours*
+
+
+**7/23/26 - I ran the wires and screwed everything in**
+
+Now that I knew most of the parts would fit, the next step was to legnthen the servo wires and run them through each piece. This was a fairly simple and task, I just had to measure and estimate the length I would need for each servo to go from it's piece down to the base, and still have enough extra length so movement isn't restricted. Thankfully since the pack of jumper wires I ordered came with 40 of each male-male, male-female, and female-female wires, I could pretty easily connect each of the servo wires to the PCA module. I also took the time to after connecting each of the three wires, to go every 4 inches or so along them and tape them together in a nice line. This will make sure everything fits nice, looks nice, and no wires get mixed up. Then I just simply slotted each of the servos into place, and screwed them nicely in. For the last one(in the base) I did need to slighty rework it so it would align correctly and the top would close, but that wasn't too hard and didn't require reprinting. And as a last second thought, I decided to add a switch to the arduino battery, becuase otherwise it would always be left on and I didn't want to have to take it apart every night.
+<img width="480" height="640" alt="old" src="https://github.com/user-attachments/assets/2a8fb982-dfa3-4bf0-9518-9a413f694efa" />
+<img width="320" height="320" alt="IMG_2682" src="https://github.com/user-attachments/assets/76d2a68d-0522-4937-b668-ba9cad59545a" />
+<img width="5712" height="4284" alt="IMG_2681" src="https://github.com/user-attachments/assets/bd8e61a6-be99-44ac-836e-030a5565e8f4" />
+
+*Time Spent: 1.5 Hours*
+
