@@ -304,3 +304,11 @@ Now that I knew most of the parts would fit, the next step was to legnthen the s
 
 *Time Spent: 1.5 Hours*
 
+
+**7/25/26-8/2/26 - I did the final steps!...and they failed**
+
+So the last thing I had to do was screw it all together! And the process itself went quite well, everything attacked as desired, and nothing seemed largely faulty. But when I got it all assembled and started trying to use the GUI to rotate it, there were some obvious issues. Apparently when I had screwed on the pieces to the servos, I had forgotten to make sure the servo position was set to the corresponding angle I was screwing the arm piece on in, so the servo thought it was at 90 degrees but the arm was actually in the 160 degree positions. But that was a simple fix, and before too long I had it all set up correctly this time. And yet again there were issues, the code wasn't communicating correctly with the servos, meaning they moved very slowly at first, then flew towards the position, which would cause any arm to fall over, no matter the stability. So I refactored, and refactored, and refactored, again and again and again, just trying to get it to work how I envisioned. Finally after 5+ hours of work trying to fix it across multiple days, I decided to consult AI coding tools. And before too much longer there was steady progress, the arm would move more smoothly, and the angles were correct. Ultimately it just came down to the fact that the code is a bit beyond what I have truly learned, and I have no problem seeking help when I need it, and since no one in my family can code, obviously the AI came in handy to fix some issues.
+<img width="240" height="320" alt="IMG_2725" src="https://github.com/user-attachments/assets/5d62b9d2-cbab-4bfb-81a9-6cd623d9f685" />
+<img width="3825" height="1666" alt="Screenshot 2026-08-05 163447" src="https://github.com/user-attachments/assets/84804f4a-da92-48ee-9c86-b2fad7dd756d" />
+
+*Time Spent: 5.5 Hours(across a couple days of doing the same things over an over)*
