@@ -312,3 +312,11 @@ So the last thing I had to do was screw it all together! And the process itself 
 <img width="3825" height="1666" alt="Screenshot 2026-08-05 163447" src="https://github.com/user-attachments/assets/84804f4a-da92-48ee-9c86-b2fad7dd756d" />
 
 *Time Spent: 5.5 Hours(across a couple days of doing the same things over an over)*
+
+
+**8/5/26 - I printed two pieces**
+So I realized that part of the reason the shoulder joint was having so much trouble was because the arm top piece was a bit too heavy, so I decided to reprint it at a much lower infill, since it really wasn't that structural of a piece and could have less strength. It was a simple and fast print, came out well, and I got it all switched out with the old one. It really helped, and gave the shoulder much more strength in general. Also I realized the clips for my base pieces wer starting to break due to being under too much stress, so I actually just snapped all of them off and designed a new piece to glue on that would fix that issue and actually give it a cleaner look. It didn't quite fit right the first time, but it was enough for some testing and the fixes were super simple, so I just threw together the fixed one and it went great.
+<img width="3832" height="2016" alt="Screenshot 2026-08-07 112929" src="https://github.com/user-attachments/assets/083ee38d-d0ac-4e80-a7a8-f0766651cbeb" />
+<img width="3834" height="1981" alt="Screenshot 2026-08-07 113136" src="https://github.com/user-attachments/assets/5d4328d9-1201-4e8c-be3e-029279a98774" />
+
+*Time Spent: 1.5 Hours*
