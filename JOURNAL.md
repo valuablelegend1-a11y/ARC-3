@@ -334,3 +334,12 @@ So even though the mechanical fixes from the other day helped a lot with the wei
 <img width="3808" height="2042" alt="Screenshot 2026-08-12 085045" src="https://github.com/user-attachments/assets/9755d22c-8821-41cc-b42b-b06814e09d38" />
 
 *Time Spent: 3 Hours*
+
+
+**8/11/26 - I worked on the fingers and gears**
+So today I noticed that the fingers were having a lot of trouble moving because there was just way too much friction between the gears, they kept binding up and clicking instead of moving together smoothly which was super annoying. At first I thought I could just fix it fast without reprinting everything, so I tried trimming them down to give them some more space to turn, but that didn't really work out because it was super tedious and I ended up ruining the shape on one of them which just made it slip completely. Since trimming them by hand was a bust, I went back into my design and decided to reprint all of the gears instead, but this time I made the whole gears thicker so they would fit much better in their slots, and I also made the teeth shorter on a few of them so they wouldn't jam into each other anymore. It took about two hours to get all the new parts printed and swapped out, and since they just seat right into place without needing screws it was pretty fast to test, and once I got them all put into the hand assembly it worked a lot better and the fingers actually close now without grinding or locking up on me. 
+<img width="240" height="320" alt="IMG_2753" src="https://github.com/user-attachments/assets/1ed1b301-a45d-4358-ab4f-bc12f4b8d21e" />
+<img width="240" height="320" alt="IMG_2755" src="https://github.com/user-attachments/assets/27c476c3-19c1-4883-bc4c-b1b95b6bcd40" />
+
+*Time Spent: 2 Hours*
+
