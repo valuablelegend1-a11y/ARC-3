@@ -324,6 +324,7 @@ So I realized that part of the reason the shoulder joint was having so much trou
 
 **8/8/26 - I continued to fix issues**
 There were a couple slight issues with the yaw still, it seemed that it would not rotate fully due to too much resistance with the clip ring. So i simply scaled it up to 102%, and reprinted, and it worked perfectly. Which goes to show how sometimes your designs can be perfect, but you just need a little more tolerance. After that I also reprinted the gears slightly with just a little longer teeth, which really solved a couple tension issues, and helped me get much better movement. I also realized the screws on the top servo really were not holding it in place, so I went through the simple process of gluing it instead, which should keep it much more secure while keeping the same cleanliness of the previous version. And while I was at it I also replaced the glue in the main body. It had had issues with some parts coming free and wiggling around, so I methodically moving things around and resecured them.
+
 <img width="3291" height="1529" alt="Screenshot 2026-08-11 153929" src="https://github.com/user-attachments/assets/7c7f8707-2acf-45fc-b24d-0e5be45d7dab" />
 
 *Time Spent: 2 Hours*
@@ -331,6 +332,7 @@ There were a couple slight issues with the yaw still, it seemed that it would no
 
 8/10/26 - I fixed the servo jittering 
 So even though the mechanical fixes from the other day helped a lot with the weight, the actual movement of the arm still felt way too jerky and unnatural when I tried to use the GUI to rotate it, it would just jump instantly to the target angle instead of gliding there which put a ton of unnecessary momentum and stress on my 3D-printed joints and honestly I was worried it was going to snap something if I kept testing it like that. I knew I needed to dive back into the code to implement proper acceleration pacing, so I sat down for a solid 3 hours to figure out a smoother interpolation system and started breaking down the logic of how the GUI communicates with the micro-controller because instead of just sending a raw destination angle straight to the servo write function, I needed the code to step through the angles gradually. I set up a loop that calculates the distance between the current angle and the target angle and moves the servo in small increments, like 1 or 2 degrees at a time, with a tiny millisecond delay between each step, but at first this made the arm move incredibly slow, almost like it was lagging or breaking, so I spent about an hour tweaking those increment steps and delay intervals trying to find the perfect sweet spot where it moved fluidly without feeling painfully sluggish. Once I got the basic stepping down I noticed a new issue where the arm would start and stop so abruptly that the inertial jerk was still making the main body wiggle, which is the exact issue I've been trying to get away from, so I decided to try implementing a basic easing or acceleration curve. I used the AI coding tools again to help me write a function that would make the servo start moving slowly, speed up in the middle of the arc, and then decelerate right before reaching the final angle, but this took a lot of back-and-forth debugging because the math for the interpolation kept throwing out-of-bounds angles that caused the servos to twitch wildly or hit their physical limits and make terrible buzzing noises. After a ton of refactoring and testing individual axes one by one and constantly uploading the code to see what changed, the code finally stabilized and watching the shoulder and yaw joints glide smoothly to their positions without slamming to a halt was incredibly satisfying and felt like a massive win. 
+
 <img width="3808" height="2042" alt="Screenshot 2026-08-12 085045" src="https://github.com/user-attachments/assets/9755d22c-8821-41cc-b42b-b06814e09d38" />
 
 *Time Spent: 3 Hours*
@@ -338,6 +340,7 @@ So even though the mechanical fixes from the other day helped a lot with the wei
 
 **8/11/26 - I worked on the fingers and gears**
 So today I noticed that the fingers were having a lot of trouble moving because there was just way too much friction between the gears, they kept binding up and clicking instead of moving together smoothly which was super annoying. At first I thought I could just fix it fast without reprinting everything, so I tried trimming them down to give them some more space to turn, but that didn't really work out because it was super tedious and I ended up ruining the shape on one of them which just made it slip completely. Since trimming them by hand was a bust, I went back into my design and decided to reprint all of the gears instead, but this time I made the whole gears thicker so they would fit much better in their slots, and I also made the teeth shorter on a few of them so they wouldn't jam into each other anymore. It took about two hours to get all the new parts printed and swapped out, and since they just seat right into place without needing screws it was pretty fast to test, and once I got them all put into the hand assembly it worked a lot better and the fingers actually close now without grinding or locking up on me. 
+
 <img width="240" height="320" alt="IMG_2753" src="https://github.com/user-attachments/assets/1ed1b301-a45d-4358-ab4f-bc12f4b8d21e" />
 <img width="240" height="320" alt="IMG_2755" src="https://github.com/user-attachments/assets/27c476c3-19c1-4883-bc4c-b1b95b6bcd40" />
 
@@ -346,7 +349,16 @@ So today I noticed that the fingers were having a lot of trouble moving because 
 
 **8/13/26 - I added the final touches and tested**
 The last couple things to do were to one: add spacers in between the arm joints so they didn't wobble so much. And two: add grips to the end of the fingers for, well, grip. Both went off without a hitch, since I literally just modeled the spacers off the end of their respective parts, it was super easy to do and to make fit. After that I just cut up an extra strip of TPU I had lying around and glued it onto the ends of the fingers for a nice grip. Then I decided to finally fix the one issue that had been bugging me from the start: not enough power. So I ordered a power supply with slightly higher volts and amps, and it really helped, giving each joint that much more power meant no slow rising or random brownouts. And to finish it all off, I tested it by playing back a prerecorded movement sequence, and it all worked together beautifully.
+
 <img width="320" height="156" alt="IMG_2757" src="https://github.com/user-attachments/assets/7d47ca1c-a3a9-431d-9c1a-7b8ff50e54c0" />
 <img width="240" height="320" alt="IMG_2756" src="https://github.com/user-attachments/assets/f39b0c67-1b0f-4e1a-97bf-d430c18e9413" />
 
+*Time Spent: 1 Hour*
 
+
+**8/14/26 - I finished my project**
+Well it works. After all the long days and late nights and way too much redesigning and reimplementing, I have a functioning robotic arm. And this might not seem like a big deal to some people, but to me this means the world. Because it was never just about having a robotic arm, it was to learn the process, the fundamentals, the ideas, and how that all fits together to make something work. And honestly I'd say I achieved that, even if it took a lot of wasted parts and stressful days, I gained so much valuable experience that really makes the whole thing pay off. This really excites me for all the opportunities down the road to do the same thing, learn through trial and error. Which really is not fun at first, but the payout is astounding. And to think I didn't know any of this 5 months ago when I started, really puts it in perspective of how much I have learned and grown in. A huge thanks to Hack Club for the funding that made this happen, and for all their help along the way. ARC-3 is now officially completed.
+
+<img width="152" height="320" alt="IMG_2761" src="https://github.com/user-attachments/assets/4b31bcbb-9629-4536-8695-78141cc5618b" />
+
+*Time Spent: 15 minutes writing this and an hour reveling in it*
