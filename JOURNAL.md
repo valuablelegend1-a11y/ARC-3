@@ -343,3 +343,10 @@ So today I noticed that the fingers were having a lot of trouble moving because 
 
 *Time Spent: 2 Hours*
 
+
+**8/13/26 - I added the final touches and tested**
+The last couple things to do were to one: add spacers in between the arm joints so they didn't wobble so much. And two: add grips to the end of the fingers for, well, grip. Both went off without a hitch, since I literally just modeled the spacers off the end of their respective parts, it was super easy to do and to make fit. After that I just cut up an extra strip of TPU I had lying around and glued it onto the ends of the fingers for a nice grip. Then I decided to finally fix the one issue that had been bugging me from the start: not enough power. So I ordered a power supply with slightly higher volts and amps, and it really helped, giving each joint that much more power meant no slow rising or random brownouts. And to finish it all off, I tested it by playing back a prerecorded movement sequence, and it all worked together beautifully.
+<img width="320" height="156" alt="IMG_2757" src="https://github.com/user-attachments/assets/7d47ca1c-a3a9-431d-9c1a-7b8ff50e54c0" />
+<img width="240" height="320" alt="IMG_2756" src="https://github.com/user-attachments/assets/f39b0c67-1b0f-4e1a-97bf-d430c18e9413" />
+
+
