@@ -35,6 +35,21 @@ All STL files are in the `CAD/` folder of the repo. Print with PLA or PETG at st
 
 ---
 
+## Assembly
+
+After printing all the parts, assemble the arm before wiring anything up:
+
+### Gear fitting
+Some of the gears may not fit perfectly between the pegs out of the printer — the tolerances are what you might call "generous." If a gear is too tight to slide between the pegs on the arm pieces, **trim the gear teeth slightly** with a hobby knife or flush cutters until it fits. Take your time here; a little off each tooth goes a long way. The gears need to mesh smoothly but not bind, so aim for a snug fit that still spins freely.
+
+### Securing the gears
+Once the gears are in place on the arm pieces, **insert a screw and washer into each peg on the arm_top** to lock the gears down. This keeps them from sliding off during movement. Tighten until the gear is held firmly but still spins without excessive friction.
+
+### Servo positioning
+The slot for the servo on the arm_top is intentionally oversized — this is so you can **adjust the servo's position both in height and side-to-side** before tightening it down. Slide the servo around until its gear meshes cleanly with the arm gears, then secure it. Getting this alignment right is worth the extra minute; a well-aligned servo runs quieter, cooler, and with better grip.
+
+---
+
 ## Electronics Overview
 
 ```
