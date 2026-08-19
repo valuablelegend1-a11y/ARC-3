@@ -48,6 +48,9 @@ Once the gears are in place on the arm pieces, **insert a screw and washer into 
 ### Servo positioning
 The slot for the servo on the arm_top is intentionally oversized — this is so you can **adjust the servo's position both in height and side-to-side** before tightening it down. Slide the servo around until its gear meshes cleanly with the arm gears, then secure it. Getting this alignment right is worth the extra minute; a well-aligned servo runs quieter, cooler, and with better grip.
 
+### Spacers between arm pieces
+There is a gap between the arm pieces when assembled. To fill this, **create spacers by slicing a thin piece from the front of a base_top or arm_bottom print** — essentially cut a "slice" off one of those parts and sand it down until the thickness fits snugly in the space between the two arm pieces. Then **glue the spacer onto the bottom piece of the connection** so it sits flush and fills the gap. This keeps the arm pieces from flexing or shifting against each other during movement, and gives the whole joint a solid, unified feel.
+
 ---
 
 ## Electronics Overview
