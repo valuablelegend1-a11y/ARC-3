@@ -1,5 +1,9 @@
 # ARC-3
 
+
+<img width="152" height="320" alt="IMG_2761" src="https://github.com/user-attachments/assets/19591714-dd63-4164-b7f8-bded4ea284ad" />
+
+
 ## What it is:
 My ARC-3 is a 3 DoF and 3 fingered robotic arm, designed to be sleek and dynamic, while also providing complete adaptability. For example, it will feature interchangeable bases, and not require wired connection to your computer. Which will allow it to be switched between multiple locations seamlessly. This simple location management, paired with a 2:1 gear ratio for finger precision, enables it to complete a multitude of tasks. Ranging from moving a heavy mug or cup across a desk, to being mounted on the wall to flip a lightswitch at the press of a button. These are only some of the potential uses, with enough setup it could do something as precise as unloading filament from a 3D printer, or even assisting with soldering. The possibilites are endless, so here's how it's set up. It will be powered by an external power socket, using a PCA9685 module to handle current, and an Arduino R4 WiFi for the controller. For the movement it will have 4 MG995 servos, one to rotate the base (yaw) two as shoulder and elbow joints (pitch) and one more, to open and close the fingers using an advanced gear system. All the wiring from these servos will run stratiegically through the center of the arm, for an impressive outside look and no movement constrictions.
 
@@ -28,10 +32,6 @@ Assembly:
 
 Wiring Diagram:
 <img width="2522" height="1412" alt="Screenshot 2026-03-25 150108" src="https://github.com/user-attachments/assets/36a4b16f-0ab9-4d22-b1bb-70d68d1c05db" />
-
-Finished product:
-
-<img width="152" height="320" alt="IMG_2761" src="https://github.com/user-attachments/assets/19591714-dd63-4164-b7f8-bded4ea284ad" />
 
 
 BOM:
