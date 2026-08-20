@@ -32,7 +32,9 @@ See the BOM table in [README.md](README.md) for purchase links. Key components:
 
 ## 3D Printing
 
-All STL files are in the `CAD/` folder of the repo. Print with PLA or PETG at standard settings (0.2mm layer height, 20% infill is fine). The parts are designed so all electronics sit inside the base and arm body — nothing is visible from the outside when assembled.
+All STL files are in the `CAD/` folder of the repo. Use PETG or something stronger like ASA or Nylon — these parts see real stress and PLA will crack at the joints over time. 0.2mm layer height works fine.
+
+Bottom pieces and gears take the most load, so print them at 45-80% infill (more stress = more infill), gyroid pattern, with 3-4 walls. Arm pieces and fingers see less force, so those can go lower at 15-25% infill, still gyroid. The parts are designed so all electronics sit inside the base and arm body — nothing is visible from the outside when assembled.
 
 ---
 
