@@ -1,7 +1,8 @@
 # ARC-3
 
 
-<img width="152" height="320" alt="IMG_2761" src="https://github.com/user-attachments/assets/19591714-dd63-4164-b7f8-bded4ea284ad" />
+<img width="320" height="180" alt="IMG_2778" src="https://github.com/user-attachments/assets/190d3cb7-21c6-43e1-922c-71e8db5cfe9f" />
+
 
 
 ## What it is:
