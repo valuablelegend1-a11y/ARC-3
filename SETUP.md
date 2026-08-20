@@ -3,7 +3,7 @@
 ## Contents
 1. [Parts List Recap](#parts-list-recap)
 2. [3D Printing](#3d-printing)
-3. [Electronics Overview](#electronics-overview)
+3. [Assembly](#assembly)
 4. [Wiring](#wiring)
 5. [Power Supply](#power-supply)
 6. [Firmware Upload](#firmware-upload)
@@ -23,6 +23,7 @@ See the BOM table in [README.md](README.md) for purchase links. Key components:
 | Arduino Uno R4 WiFi | Main controller, runs firmware, hosts WiFi |
 | PCA9685 Servo Driver | PWM controller for all 4 servos via I2C |
 | 4x MG995 Servos | Yaw (base), shoulder (pitch), elbow (pitch), claw |
+| 9V battery + switch | Powers the Arduino (switch wired to VIN and GND) |
 | 6V 10A+ regulated power supply | Powers servos through PCA9685 V+ |
 | 20 AWG stranded wire | Servo power bus (carries up to ~10A) |
 | Jumper wires | I2C and signal connections |
@@ -49,20 +50,10 @@ Once the gears are in place on the arm pieces, **insert a screw and washer into 
 The slot for the servo on the arm_top is intentionally oversized — this is so you can **adjust the servo's position both in height and side-to-side** before tightening it down. Slide the servo around until its gear meshes cleanly with the arm gears, then secure it. Getting this alignment right is worth the extra minute; a well-aligned servo runs quieter, cooler, and with better grip.
 
 ### Spacers between arm pieces
-There is a gap between the arm pieces when assembled. To fill this, **create spacers by slicing a thin piece from the front of a base_top or arm_bottom print** — essentially cut a "slice" off one of those parts and sand it down until the thickness fits snugly in the space between the two arm pieces. Then **glue the spacer onto the bottom piece of the connection** so it sits flush and fills the gap. This keeps the arm pieces from flexing or shifting against each other during movement, and gives the whole joint a solid, unified feel.
+There is a gap between the arm pieces when assembled. To fill this, **create spacers by cutting a thin slice in TinkerCAD or a similar simple CAD editor**, then print that piece at the exact height needed to fill the gap. Then **glue the spacer onto the bottom piece of the connection** so it sits flush. This keeps the arm pieces from flexing or shifting against each other during movement, and gives the whole joint a solid, unified feel.
 
----
-
-## Electronics Overview
-
-```
-[Power Supply] ──20AWG──> [PCA9685 V+ & V-] ──servo cables──> [4x MG995 servos]
-                              │ I2C (SDA/SCL)
-                         [Arduino R4 WiFi]
-                         (powered via USB or separate 5V)
-```
-
-The Arduino and PCA9685 communicate over I2C. All servo power runs through the PCA9685's screw terminals so the servos draw from the external supply, not the Arduino's USB power.
+### Servo horns
+The servo horns **do not fit in the slots out of the box** — even with scaling and tolerances they're too tight. The best method is to **use a soldering iron to melt/cut off a significant amount of material from the fins of the servo horn** until it fits into the slot. Once it fits, **glue it in place and add the screw** to lock it down. This is much faster than trying to widen the slots themselves.
 
 ---
 
@@ -72,7 +63,7 @@ The Arduino and PCA9685 communicate over I2C. All servo power runs through the P
 
 | PCA9685 Pin | Connect To |
 |---|---|
-| VCC | Arduino 5V (or 3.3V) |
+| VCC | Arduino 5V pin (powers the PCA9685 logic) |
 | GND | Arduino GND (common ground with power supply) |
 | SDA | Arduino SDA (A4 on R4) |
 | SCL | Arduino SCL (A5 on R4) |
@@ -92,9 +83,10 @@ Each servo has a 3-pin connector (signal / VCC / GND). Plug into the PCA9685 hea
 
 ### Power wiring
 
-- Run **20 AWG stranded wire** from the power supply's positive and negative terminals to the PCA9685's V+ and V- screw terminals.
+- The **Arduino** is powered by a **9V battery** wired through a simple switch to the **VIN** and **GND** pins on the Arduino.
+- The **PCA9685 VCC** is plugged into the **Arduino 5V** pin for its own logic power.
+- Run **20 AWG stranded wire** from the external servo power supply's positive and negative terminals to the PCA9685's V+ and V- screw terminals.
 - **Do NOT** power the servos from the Arduino's 5V pin — the servos will draw too much current and reset the board.
-- The Arduino itself should be powered via USB (for serial/WiFi) or from its own regulated supply — keep it separate from the servo rail.
 
 ### Critical: common ground
 
