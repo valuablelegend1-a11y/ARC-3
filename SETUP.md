@@ -117,7 +117,7 @@ Running at 6V gives noticeably more torque and headroom before servos stall. At 
 6. Click Upload.
 
 ### Option B: arduino-cli (command line)
-```bash
+
 # Install (one time)
 arduino-cli core install arduino:renesas_uno
 
@@ -126,7 +126,7 @@ arduino-cli compile --fqbn arduino:renesas_uno:unor4wifi ARC3_firmware/
 
 # Upload (replace COM10 with your port)
 arduino-cli upload -p COM10 --fqbn arduino:renesas_uno:unor4wifi ARC3_firmware/
-```
+
 
 After upload, the board's serial monitor (115200 baud) will print the WiFi IP address and confirm servo initialization.
 
@@ -137,22 +137,22 @@ After upload, the board's serial monitor (115200 baud) will print the WiFi IP ad
 Open `ARC3_firmware/ARC3_firmware.ino` and edit the following at the top of the file:
 
 ### WiFi credentials
-```cpp
+
 const char* WIFI_SSID     = "YOUR_WIFI_NAME";
 const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
-```
+
 
 ### Static IP (recommended)
 The firmware ships with a static IP so the board's address never changes between reboots:
 
-```cpp
+
 #define USE_STATIC_IP 1
 #if USE_STATIC_IP
 IPAddress LOCAL_IP(192, 168, 4, 73);
 IPAddress GATEWAY_IP(192, 168, 4, 1);
 IPAddress SUBNET_MASK(255, 255, 252, 0);
 #endif
-```
+
 
 LOCAL_IP: Set this to a free address on your network (avoid the router's DHCP range). GATEWAY_IP: Your router's IP (usually 192.168.x.1). SUBNET_MASK: Usually `255.255.255.0` (or `255.255.252.0` for /22 networks — check your PC's Wi-Fi config to confirm).
 
@@ -166,9 +166,9 @@ After editing, recompile and reupload.
 
 The GUI (`arc-3.py`) requires only Python 3.8+ with its standard library. No pip install needed — tkinter, socket, threading, json, math, and csv are all built in.
 
-```bash
+
 python arc-3.py
-```
+
 
 ### What the GUI provides
 - Sliders for each servo angle (yaw, shoulder, elbow, claw)
