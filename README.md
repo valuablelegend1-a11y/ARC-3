@@ -32,6 +32,10 @@ Assembly:
 Wiring Diagram:
 <img width="2522" height="1412" alt="Screenshot 2026-03-25 150108" src="https://github.com/user-attachments/assets/36a4b16f-0ab9-4d22-b1bb-70d68d1c05db" />
 
+Movement Video:
+https://www.youtube.com/shorts/BOCckY0NalY
+
+
 
 BOM:
 | Item | Quantity | Unit Price | Link | Notes |
