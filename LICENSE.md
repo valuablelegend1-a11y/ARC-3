@@ -5,7 +5,7 @@ Required Attribution Format:
 All code/firmware is provided under the MIT license as listed here:
 MIT License
 
-Copyright (c) 2026 Advanced Research and Creations (ARC)
+Copyright (c) 2026 ARC-Extrusions
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
